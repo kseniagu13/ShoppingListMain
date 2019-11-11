@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{DC417E4B-D813-4025-A65D-41B0B6DC2A1C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GroceryList/Program.cs">
+    <Files>
+      <File FileName="GroceryList/Program.cs" Line="17" Column="55" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GroceryList" expanded="True">
+            <Node name="GroceryList" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GroceryList PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

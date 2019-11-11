@@ -1,0 +1,11 @@
+/Users/kseniagustsenko/Desktop/GroceryList/GroceryList/bin/Debug/netcoreapp3.0/GroceryList
+/Users/kseniagustsenko/Desktop/GroceryList/GroceryList/bin/Debug/netcoreapp3.0/GroceryList.deps.json
+/Users/kseniagustsenko/Desktop/GroceryList/GroceryList/bin/Debug/netcoreapp3.0/GroceryList.runtimeconfig.json
+/Users/kseniagustsenko/Desktop/GroceryList/GroceryList/bin/Debug/netcoreapp3.0/GroceryList.runtimeconfig.dev.json
+/Users/kseniagustsenko/Desktop/GroceryList/GroceryList/bin/Debug/netcoreapp3.0/GroceryList.dll
+/Users/kseniagustsenko/Desktop/GroceryList/GroceryList/bin/Debug/netcoreapp3.0/GroceryList.pdb
+/Users/kseniagustsenko/Desktop/GroceryList/GroceryList/obj/Debug/netcoreapp3.0/GroceryList.csprojAssemblyReference.cache
+/Users/kseniagustsenko/Desktop/GroceryList/GroceryList/obj/Debug/netcoreapp3.0/GroceryList.AssemblyInfoInputs.cache
+/Users/kseniagustsenko/Desktop/GroceryList/GroceryList/obj/Debug/netcoreapp3.0/GroceryList.AssemblyInfo.cs
+/Users/kseniagustsenko/Desktop/GroceryList/GroceryList/obj/Debug/netcoreapp3.0/GroceryList.dll
+/Users/kseniagustsenko/Desktop/GroceryList/GroceryList/obj/Debug/netcoreapp3.0/GroceryList.pdb
