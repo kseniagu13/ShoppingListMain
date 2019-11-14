@@ -28,42 +28,13 @@ namespace GroceryList
                 string userAnswer = Console.ReadLine();
                 if (userAnswer.ToLower() == "add") // ADD ITEM
                 {
+                    Add(userAnswer, ShoppingLists);
                     
-                    Console.WriteLine("What item do you want to add?");
-                    string itemToAdd = Console.ReadLine();
-                    Console.Clear();
-                    string[] userAnswerAdd = itemToAdd.Split(new char[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                    /*int sizeOfArray = userAnswerAdd.Length;
-                    Console.WriteLine(sizeOfArray);*/
-
-                    ShoppingLists.AddRange(userAnswerAdd);
-                    Console.WriteLine("Your shopping list:");
-                    for (int i = 0; i < ShoppingLists.Count; i++)
-                    {
-                        Console.WriteLine($"Item {i + 1}: {ShoppingLists[i]}");
-
-                    }
                 }
                 else if (userAnswer.ToLower() == "remove") // Remove item
                 {
-                 
-                    Console.WriteLine("What item do you want to remove?");
-                    string itemToRemove = Console.ReadLine();
-                    Console.Clear();
-                    string[] userAnswerRemove = itemToRemove.Split(new char[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
-
-                    /*int sizeOfArray = userAnswerRemove.Length;
-                    Console.WriteLine(sizeOfArray); */
-
-                   ShoppingLists.Remove(itemToRemove);
-                   Console.WriteLine("Your shopping list: ");
-
-
-                    for (int i = 0; i < ShoppingLists.Count; i++)
-                    {
-                        Console.WriteLine($"Item {i + 1}: {ShoppingLists[i]}");
-
-                    } 
+                    Remove(userAnswer, ShoppingLists);
+                   
                 }
 
                 else if (userAnswer.ToLower() == "shopping")
@@ -92,39 +63,39 @@ namespace GroceryList
             Console.ReadLine();
         }
 
-        public static void Add ( string itemToAdd, List<string> GroceryList)
+        public static void Add ( string itemToAdd, List<string> ShoppingList)
         {
-            List<string> ShoppingLists = new List<string>();
+            
             Console.WriteLine("What item do you want to add?");
             itemToAdd = Console.ReadLine();
+            Console.Clear();
             string[] userAnswerAdd = itemToAdd.Split(new char[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            int sizeOfArray = userAnswerAdd.Length;
-            Console.WriteLine(sizeOfArray);
-
-            ShoppingLists.AddRange(userAnswerAdd);
-            for (int i = 0; i < ShoppingLists.Count; i++)
+            
+            ShoppingList.AddRange(userAnswerAdd);
+            Console.WriteLine("Your shopping list:");
+            for (int i = 0; i < ShoppingList.Count; i++)
             {
-                Console.WriteLine($"Item {i + 1}: {ShoppingLists[i]}");
+                Console.WriteLine($"Item {i + 1}: {ShoppingList[i]}");
 
             }
         }
 
-        public static void Remove (string itemToRemove)
+        public static void Remove (string itemToRemove, List<string> GroceryList)
         {
-            List<string> ShoppingLists = new List<string>();
+            
             Console.WriteLine("What item do you want to remove?");
             itemToRemove = Console.ReadLine();
-            /*string[] userAnswerRemove = itemToRemove.Split(new char[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            Console.Clear();
+            string[] userAnswerRemove = itemToRemove.Split(new char[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
             int sizeOfArray = userAnswerRemove.Length;
-            Console.WriteLine(sizeOfArray); */
+            Console.WriteLine(sizeOfArray); 
 
-            ShoppingLists.Remove(itemToRemove);
-
-
-            for (int i = 0; i < ShoppingLists.Count; i++)
+            GroceryList.Remove(itemToRemove);
+            Console.WriteLine("Your shopping list:");
+            for (int i = 0; i < GroceryList.Count; i++)
             {
-                Console.WriteLine($"Item {i + 1}: {ShoppingLists[i]}");
+                Console.WriteLine($"Item {i + 1}: {GroceryList[i]}");
 
             }
         }
